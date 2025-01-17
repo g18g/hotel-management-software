@@ -8,10 +8,10 @@ System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 
 WebDriver driver = new ChromeDriver();
 // Navigate to the webpage
-driver.get("https://www.example.com");
+driver.get("https://www.google.com");
 // Get the actual title of the webpage
 String actualTitle = driver.getTitle();
-String expectedTitle = "Example Domain";
+String expectedTitle = "Google";
 // Verify the title of the webpage
 if (actualTitle.equals(expectedTitle)) {
 System.out.println("Title matched!");
